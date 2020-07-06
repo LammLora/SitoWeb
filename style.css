@@ -1,0 +1,384 @@
+*{
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  margin: 0em;
+  padding: 0em;
+}
+
+body *{
+  display: inline-block;
+  user-select: none;
+}
+
+body{
+  overflow-x: hidden;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  background-image: url('img/cartacopertina.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat-y;
+}
+
+.centered{
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.container{
+  position: relative;  left: 50%;
+  transform: translate(-50%,0%);
+}
+
+p{
+  font-size: 1.1rem;
+  line-height: 1.7rem;
+  font-family: 'Lora', serif;
+  color: #676767;
+}
+
+h1{
+  font-size: 7rem;
+  text-align: center;
+  color: #E04C5E;
+  font-family: 'Playfair Display', serif;
+}
+
+h2{
+  font-size: 1.5rem;
+  color: #fbc380;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.bianco{
+  background-color: #636363;
+  width: 100vw; height: 80px;
+}
+
+.logo{
+  position: absolute;
+  top: 25px; left: 50%;
+  transform: translate(-50%,0);
+  width: 200px;
+}
+
+.logo:hover{
+  transform: translate(-50%,0) scale(1.1);
+}
+
+#c1{
+  top: 200px;
+  width: 100vw;
+}
+
+#p1{
+  top: 50px;
+  display: block;
+  width: 50vw;
+  text-align: center;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%,0);
+}
+
+.boxlora{
+  position: relative;
+  top: 200px;
+  width: 100vw;
+  height: 700px;
+  overflow: hidden;
+}
+
+.loraph{
+  position: relative;
+  top: -150px;
+  width: 100vw;
+}
+
+.section2{
+  position: relative;
+  width: 100vw;
+  top: 300px;
+}
+
+#t2{
+  position: absolute;
+  top: 0%; left: 50%;
+  transform: translate(-50%,0);
+}
+
+.work{
+  display: block;
+  position: relative;
+  width: 700px;
+  left: 50%;
+  transform: translate(-50%,0);
+}
+
+.boxicon{
+  display: block;
+  position: relative;
+  width: 500px;
+  left: 50%;
+  transform: translate(-50%,0);
+}
+
+.sinistra{
+  float: left;
+  text-align: right;
+}
+
+.destra{
+  float: right;
+  text-align: left;
+}
+
+.sect{
+  width: 300px;
+}
+
+.par{
+  position: relative;
+  top: 20px;
+}
+
+.photo{
+  width: 300px;
+}
+
+.icona{
+  position: relative;
+  top: 50%; transform: translate(0,-50%);
+  width: 150px;
+}
+
+#Acq{
+  color: #de4256;
+}
+
+#Fot{
+  color: #c0d27c;
+}
+
+#Col{
+  color: #acc8c2;
+}
+
+#i1{
+  top:300px;
+  height: 165px;
+}
+
+#i2{
+  top:350px;
+  height: 165px;
+}
+
+#i3{
+  top:400px;
+  height: 220px;
+}
+
+#i4{
+  top:450px;
+  height: 190px;
+}
+
+#w1{
+  top:300px;
+  height: 580px;
+}
+
+#w2{
+  top:400px;
+  height: 370px;
+}
+
+#w3{
+  top:500px;
+  height: 280px;
+}
+
+#w4{
+  top:600px;
+  height: 620px;
+}
+
+#w5{
+  top:700px;
+  height: 550px;
+}
+
+#w6{
+  top:800px;
+  height: 560px;
+}
+
+#w7{
+  top:900px;
+  height: 600px;
+}
+
+.section3{
+  position: relative;
+  top: 700px;
+}
+
+#t3{
+  position: relative;
+  left: 50%;
+  transform: translate(-50%,0);
+}
+
+.insta{
+  position: absolute;
+  top: -9px; left: -9px;
+  transform: scale(0.4);
+  width: 100px;
+}
+
+.insta:hover{
+  transform: scale(0.5);
+}
+
+.bibliografia{
+  position: absolute;
+  top: 6000px; left: 0px;
+  background-color: #636363;
+  width: 100vw; height: 600px;
+  text-align: center;
+}
+
+.bibliografiaItem{
+  color: #ffffff;
+  position: relative;
+  top:50%;
+  transform: translate(0,-50%);
+  line-height: 2rem;
+}
+
+#TB{
+  top: 85px;
+}
+
+.linkBiblio{
+  text-decoration: none;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 1100px) {
+  p{
+    font-size: 2.5rem;
+    line-height: 3rem;
+  }
+  h1{
+    font-size: 7rem;
+  }
+  h2{
+    font-size: 4rem;
+  }
+  .bianco{
+    height: 160px;
+  }
+  .logo{
+    top: 65px; left: 50%;
+    transform: translate(-50%,0) scale(1.5);
+    width: 200px;
+  }
+  #c1{
+    top: 0px;
+    width: 100vw;
+  }
+  #t1{
+    top: 400px;
+  }
+  #p1{
+    top: 450px;
+  }
+  .boxlora{
+    top: 650px;
+  }
+  .sinistra{
+    float: none;
+    text-align: center;
+  }
+  .destra{
+    float: none;
+    text-align: center;
+  }
+  .section2{
+    position: relative;
+    width: 100vw;
+    top: 300px;
+  }
+  .work{
+    position: relative;
+    display: inline-table;
+    width: 100vw;
+    margin-bottom: 200px;
+  }
+  .boxicon{
+    display: block;
+    position: relative;
+    width: 100vw;
+    margin-bottom: 200px;
+    transform: translate(-50%,0);
+  }
+  .par{
+    top: 40px;
+  }
+  .sect{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,0);
+    display: block;
+    position: relative;
+    width: 70vw;
+  }
+  .icona{
+    position: relative;
+    left: 40vw;
+    width: 20vw;
+    top: 200px;
+  }
+  .photo{
+    position: relative;
+    left: 30vw;
+    width: 40vw;
+    top: 100px;
+  }
+  #i1{
+    top:300px;
+  }
+  #i2{
+    top:700px;
+  }
+  #i3{
+    top:1100px;
+  }
+  #i4{
+    top:1500px;
+  }
+  .section3{
+    top: 2000px;
+  }
+  #w1{
+    top:300px;
+  }
+  .insta{
+    transform: scale(0.7);
+    top: 32px; left: 32px;
+  }
+  .bibliografia{
+    top: 11500px;
+    height: 1300px;
+  }
+  .bibliografiaItem{
+    line-height: 3.5rem;
+    width: 80vw;
+  }
+}
+
+{border: 1px solid black;}
